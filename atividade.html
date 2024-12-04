@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belezas Naturais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Belezas Naturais</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="content-section">
+        <div class="container">
+            <h2>Sobre as Belezas Naturais</h2>
+            <p>As belezas naturais são os cenários e paisagens do nosso planeta que despertam sentimentos de maravilha e admiração. Seja em montanhas, florestas, praias ou desertos, a natureza nos presenteia com lugares incríveis que inspiram tranquilidade, aventura e respeito.</p>
+        </div>
+    </section>
+
+    <!-- Galeria de Imagens -->
+    <section id="galeria" class="content-section">
+        <div class="container">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="img/Image1.jpg" alt="Imagem 1" class="gallery-item">
+                <img src="img/Image2.jpg" alt="Imagem 2" class="gallery-item">
+                <img src="img/Image3.jpg" alt="Imagem 3" class="gallery-item">
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Feedback -->
+    <section id="feedback" class="content-section">
+        <div class="container">
+            <h2>Deixe seu Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar Feedback</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
